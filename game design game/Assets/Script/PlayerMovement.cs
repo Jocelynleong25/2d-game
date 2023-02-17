@@ -42,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
         
     }
 
-    private IEnumerable AttackCo()
+    private IEnumerator AttackCo()
     {
         animator.SetBool("attacking", true);
         currentState = PlayerState.attack;
