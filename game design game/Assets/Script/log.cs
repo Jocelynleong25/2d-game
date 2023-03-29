@@ -23,16 +23,17 @@ public class log : Enemy
 
     void CheckDistance()
     {
-        
-        if(Vector3.Distance(target.position, transform.position) <= chaseRadius
-            && Vector3.Distance(target.position,
-                                target.position) > attackRadius)
+
+        if (Vector3.Distance(target.position,
+                             transform.position) <= chaseRadius
+        && Vector3.Distance(target.position,
+                            transform.position)> attackRadius)
         {
-
-            Debug.Log("hello");
-
             transform.position = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
         }
+
+
+
     }
 
 
