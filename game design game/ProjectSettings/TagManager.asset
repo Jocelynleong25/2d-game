@@ -6,6 +6,7 @@ TagManager:
   tags:
   - breakable
   - enemy
+  - Plant
   layers:
   - Default
   - TransparentFX

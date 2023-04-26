@@ -12,7 +12,7 @@ public class log : Enemy
     // Start is called before the first frame update
     void Start()
     {
-        target = GameObject.FindWithTag("Player").transform;
+        target = GameObject.FindWithTag("Plant").transform;
     }
 
     // Update is called once per frame
